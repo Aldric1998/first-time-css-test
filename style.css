@@ -1,0 +1,77 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+h1 {
+  color: rgb(10, 22, 39);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+body {
+  color: rgb(25, 28, 65);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: rgb(57, 58, 56);
+  font-size: medium;
+  line-height: normal;
+}
+link {
+  color: black;
+  text-decoration: blanchedalmond;
+}
+a:hover {
+  color: rgb(197, 23, 46);
+  opacity: 0.5;
+}
+.container {
+    opacity: 0.9;
+ }
+.img_circle {
+  border-radius: 50%;
+}
+.new_one {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  background-color: rgb(228, 234, 235);
+  border: rgb(20, 20, 20);
+  text-align: center;
+  width: 800px;
+  margin: 20px auto;
+}
+
+.pasta {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  background-color: rgb(184, 192, 194);
+  border: rgb(35, 35, 37);
+  text-align: center;
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  width: 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
